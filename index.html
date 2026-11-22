@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comparativo e ficha de medidas dos produtos Electrolux OE8EW, KE5GT e DE8SB.">
+  <title>Projeto Electrolux | Comparativo e medidas</title>
+  <style>
+    :root { color-scheme: light; --ink:#13251f; --green:#0d5b45; --cream:#f3efe5; --line:#d8d2c5; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; color:var(--ink); background:var(--cream); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(1080px,calc(100% - 32px)); margin:auto; padding:72px 0; }
+    .eyebrow { margin:0 0 16px; color:var(--green); font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    h1 { max-width:820px; margin:0; font-size:clamp(2.8rem,7vw,6.3rem); line-height:.92; letter-spacing:-.065em; }
+    .intro { max-width:680px; margin:28px 0 48px; color:#4c5a55; font-size:clamp(1rem,2vw,1.22rem); line-height:1.65; }
+    .cards { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+    .card { display:flex; min-height:320px; flex-direction:column; padding:32px; border:1px solid var(--line); border-radius:20px; color:inherit; background:rgba(255,255,255,.72); text-decoration:none; transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease; }
+    .card:hover,.card:focus-visible { transform:translateY(-4px); border-color:#9eb3aa; box-shadow:0 18px 45px rgba(19,37,31,.12); outline:none; }
+    .number { display:grid; width:44px; height:44px; place-items:center; border-radius:50%; color:var(--white); background:var(--green); font-weight:800; }
+    h2 { margin:auto 0 12px; font-size:clamp(1.8rem,3vw,2.7rem); line-height:1; letter-spacing:-.04em; }
+    .card p { margin:0; color:#5f6b67; line-height:1.55; }
+    .action { margin-top:28px; color:var(--green); font-weight:800; }
+    footer { margin-top:40px; padding-top:24px; border-top:1px solid var(--line); color:#68736f; font-size:.87rem; line-height:1.5; }
+    @media (max-width:720px) { main{padding:48px 0}.cards{grid-template-columns:1fr}.card{min-height:270px} }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">OE8EW · KE5GT · DE8SB</p>
+    <h1>Escolha a apresentação.</h1>
+    <p class="intro">Duas versões do projeto: uma para comparar os produtos e outra preparada para fabricação, instalação e conferência com o marceneiro.</p>
+    <section class="cards" aria-label="Apresentações disponíveis">
+      <a class="card" href="comparativo.html">
+        <span class="number">01</span>
+        <h2>Comparativo completo</h2>
+        <p>Fotos, detalhes dos três produtos, valores registrados e acesso às ofertas consultadas.</p>
+        <span class="action">Abrir comparativo →</span>
+      </a>
+      <a class="card" href="medidas-marceneiro.html">
+        <span class="number">02</span>
+        <h2>Medidas para o marceneiro</h2>
+        <p>Dimensões externas, nichos, recorte da bancada, ventilação, distâncias e checklist final.</p>
+        <span class="action">Abrir ficha técnica →</span>
+      </a>
+    </section>
+    <footer>Material de apoio. Antes dos cortes e da instalação, confirme as cotas no produto físico e nos manuais fornecidos pelo fabricante.</footer>
+  </main>
+</body>
+</html>
