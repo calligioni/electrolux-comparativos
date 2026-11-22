@@ -1,6 +1,6 @@
-# Comparativos Electrolux
+# Comparativos da cozinha
 
-Site público com duas apresentações dos modelos Electrolux OE8EW, KE5GT e DE8SB:
+Site público com duas apresentações dos modelos Electrolux OE8EW, KE5GT e DE8SB e da lava-louças Midea MDWTF14B1:
 
 - comparativo completo dos produtos;
 - ficha de medidas e instalação para marcenaria.
