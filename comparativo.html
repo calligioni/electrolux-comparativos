@@ -141,7 +141,7 @@
   </section>
   <footer>Comparativo familiar de pesquisa de preços · 21 de novembro de 2026 · Nenhuma compra efetuada</footer>
 </main>
-<div id="zoomOverlay" class="zoom-overlay" onclick="this.classList.remove('open')" role="dialog" aria-label="Foto ampliada do produto"><button type="button">Fechar ✕</button><img id="zoomImage" alt="Foto ampliada do produto"></div>
+<div id="zoomOverlay" class="zoom-overlay" onclick="this.classList.remove('open')" role="dialog" aria-label="Foto ampliada do produto"><button type="button">Fechar ✕</button><img id="zoomImage" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="Foto ampliada do produto"></div>
 <script>
 function photoError(img){const msg=img.parentElement.querySelector('.image-warning');if(msg)msg.hidden=false;}
 function changePhoto(button,index){const gallery=button.closest('.product-gallery');const main=gallery.querySelector('.art img');const thumbnail=button.querySelector('img');gallery.querySelectorAll('.thumb').forEach(b=>b.classList.toggle('selected',b===button));gallery.querySelector('.current-photo').textContent=String(index+1);gallery.querySelector('.image-warning').hidden=true;main.alt=thumbnail.alt;main.src=thumbnail.src;}
